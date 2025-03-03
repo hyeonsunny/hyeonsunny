@@ -39,4 +39,3 @@ const parser = new Parser({
         console.log("새로운 블로그 포스트가 없습니다. README.md 파일이 업데이트되지 않았습니다.");
     }
 })();
- */
