@@ -3,7 +3,7 @@ name: Readme Update
 on:
   schedule:
 #    - cron: "0 */1 * * *"
-  - cron: "3 * * * *"
+  - cron: "*/3 * * * *"
 
 jobs:
   # This workflow contains a single job called "build"
