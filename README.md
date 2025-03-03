@@ -11,10 +11,10 @@
 [![My Skills](https://skillicons.dev/icons?i=java,spring,js,html,git,mysql,idea,linux)](https://skillicons.dev) <br>
 [![My Skills](https://skillicons.dev/icons?i=figma,ps,ai)](https://skillicons.dev) <br> 
 
-<br>
 
 ### Latest Blog Posts
 
 - [[소프트웨어 아키텍처 101] CHAPTER 3, 4](https://hyeonsunnny.tistory.com/3)
 - [MariaDB에서 Connection Pool 연결 끊김 문제](https://hyeonsunnny.tistory.com/2)
 - [갑자기 백수가 된 개발자의 2024](https://hyeonsunnny.tistory.com/1)
+
