@@ -11,7 +11,6 @@
 [![My Skills](https://skillicons.dev/icons?i=java,spring,js,html,git,mysql,idea,linux)](https://skillicons.dev) <br>
 [![My Skills](https://skillicons.dev/icons?i=figma,ps,ai)](https://skillicons.dev) <br> 
 
-<br>
 
 ### Latest Blog Posts
 
