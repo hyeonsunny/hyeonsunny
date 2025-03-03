@@ -1,4 +1,4 @@
-import { writeFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import Parser from "rss-parser";
 
 // 기존 README.md 파일 읽기
