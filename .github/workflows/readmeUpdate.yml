@@ -6,8 +6,6 @@ on:
   - cron: "*/5 * * * *"
   push:
       branches: [main]  # main 브랜치에 푸시할 때 실행
-#      paths:
-#        - '.github/workflows/readmeUpdate.yml'  # main.yml이 변경될 때만 실행
   workflow_dispatch:  #수동 실행 활성화
 
 jobs:
@@ -33,11 +31,10 @@ jobs:
           git config --local user.email ${{ secrets.GIT_USER_EMAIL }}
           git config --local user.name ${{ secrets.GIT_USER_NAME }}
           if [ -n "$(git status --porcelain)" ]; then
+            git remote set-url origin https://${{ secrets.PAT }}@github.com/${{ secrets.GIT_USER_NAME }}/${{ secrets.GIT_USER_NAME }}.git
             git add .
             git commit -m "Update README.md"
             git push
           else
             echo "No changes to commit"
           fi
-        env:
-          GH_PERSONAL_TOKEN: ${{ secrets.PAT }}
