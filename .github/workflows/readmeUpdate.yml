@@ -4,24 +4,37 @@ on:
   schedule:
 #    - cron: "0 */1 * * *"
   - cron: "*/5 * * * *"
+  push:
+    branches:
+      - main
 
 jobs:
   # This workflow contains a single job called "build"
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 16
+
       - name: Install dependencies
         run: npm ci
-      - name: Update README
+
+      - name: NPM start
         run: npm start
+
       - name: Commit README
         run: |
-          git add .
           git config --local user.email ${{ secrets.GIT_USER_EMAIL }}
           git config --local user.name ${{ secrets.GIT_USER_NAME }}
-          git commit -m "Update README.md"
-          git push
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Update README.md"
+            git push
+          else
+            echo "No changes to commit"
+          fi
