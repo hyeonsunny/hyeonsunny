@@ -4,6 +4,11 @@ on:
   schedule:
 #    - cron: "0 */1 * * *"
   - cron: "*/5 * * * *"
+  push:
+      branches: [main]  # main 브랜치에 푸시할 때 실행
+#      paths:
+#        - '.github/workflows/readmeUpdate.yml'  # main.yml이 변경될 때만 실행
+  workflow_dispatch:  #수동 실행 활성화
 
 jobs:
   # This workflow contains a single job called "build"
