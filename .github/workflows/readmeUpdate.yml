@@ -4,9 +4,6 @@ on:
   schedule:
 #    - cron: "0 */1 * * *"
   - cron: "*/5 * * * *"
-  push:
-    branches:
-      - main
 
 jobs:
   # This workflow contains a single job called "build"
@@ -26,6 +23,12 @@ jobs:
 
       - name: NPM start
         run: npm start
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GIT_TOKEN }}
+          branch: main
 
       - name: Commit README
         run: |
