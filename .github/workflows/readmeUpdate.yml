@@ -24,10 +24,7 @@ jobs:
         run: npm ci
 
       - name: NPM start
-        run: |
-          for i in {1..3}; do
-            npm start && break || sleep 10
-          done
+        run: npm start
 
       - name: Commit README
         run: |

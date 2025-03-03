@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/hyeonsunny/hyeonsunny#readme",
   "dependencies": {
-    "rss-parser": "^3.12.0"
+    "rss-parser": "^3.13.0"
   }
 }
