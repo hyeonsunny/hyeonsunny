@@ -14,9 +14,9 @@
 
 ### Latest Blog Posts
 
+- [[소프트웨어 아키텍처 101] CHAPTER 8. 컴포넌트 기반 사고](https://hyeonsunnny.tistory.com/7)
 - [[소프트웨어 아키텍처 101] CHAPTER 7](https://hyeonsunnny.tistory.com/6)
 - [[소프트웨어 아키텍처 101] CHAPTER 6](https://hyeonsunnny.tistory.com/5)
 - [[소프트웨어 아키텍처 101] CHAPTER 4, 5](https://hyeonsunnny.tistory.com/4)
 - [[소프트웨어 아키텍처 101] CHAPTER 3, 4](https://hyeonsunnny.tistory.com/3)
-- [MariaDB에서 Connection Pool 연결 끊김 문제](https://hyeonsunnny.tistory.com/2)
 
