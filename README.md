@@ -13,9 +13,9 @@
 
 ### Latest Blog Posts
 
+- [[소프트웨어 아키텍처 101] CHAPTER 10, 11. 모놀리식 - 레이어드, 모듈러 모놀리스 아키텍처](https://hyeonsunnny.tistory.com/12)
 - [[소프트웨어 아키텍처 101] CHAPTER 9. 아키텍처 스타일 - 기초](https://hyeonsunnny.tistory.com/11)
 - [[소프트웨어 아키텍처 101] CHAPTER 8. 컴포넌트 기반 사고](https://hyeonsunnny.tistory.com/7)
 - [[소프트웨어 아키텍처 101] CHAPTER 7. 아키텍처 특성 범위](https://hyeonsunnny.tistory.com/6)
 - [[소프트웨어 아키텍처 101] CHAPTER 6. 아키텍처 특성의 측정 및 거버넌스](https://hyeonsunnny.tistory.com/5)
-- [[소프트웨어 아키텍처 101] CHAPTER 4, 5. 아키텍처 특성 정의와 식별](https://hyeonsunnny.tistory.com/4)
 
